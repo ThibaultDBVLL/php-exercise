@@ -6,15 +6,13 @@
   </head>
   <body>
     <h1>Exo2</h1>
-
-    <? php
-      $i = 0;
-      $nb = 42;
-      while ($i < 21){
-        $i*$nb;
-        echo($i*$nb);
-        echo(' ');
-        $i++;
+      <? php
+      $a = 1;
+      $b = $a/2;
+      while($a < 10){
+      echo($a);
+      $a = $a+$b;
+      echo(' ');
       }
     ?>
   </body>
