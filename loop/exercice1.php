@@ -5,13 +5,10 @@
     <title></title>
   </head>
   <body>
-    <h1>Exo1</h1>
+    <h1><?php echo("Exo 1")?></h1>
 
     <? php
-      for ($i = 0 ; ; $i++) {
-        if ($i > 10){
-          break;
-        }
+      for ($i = 0 ; $i > 10 ; $i++) {
         echo $i;
       }
     ?>
