@@ -6,8 +6,8 @@
     <title></title>
   </head>
   <body>
-    <h1>Exo2</h1>
-      <? php
+    <h1>Exo6</h1>
+      <?php
 
       for ($i = 20 ; $i > 0 ; $i--){
         echo($i);
@@ -15,6 +15,7 @@
         echo("C'est presque bon");
         echo(' ');
       }
+      ?>
 
       </br>
     <a href="exercice1.php">Exercice1</a>
@@ -25,6 +26,5 @@
     <a href="exercice6.php">Exercice6</a>
     <a href="exercice7.php">Exercice7</a>
     <a href="exercice8.php">Exercice8</a>
-      ?>
   </body>
 </html>

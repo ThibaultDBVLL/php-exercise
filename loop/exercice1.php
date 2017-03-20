@@ -2,15 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Loop1</title>
   </head>
   <body>
-    <h1><?php echo("Exo 1")?></h1>
-
-    <? php
-      for ($i = 0 ; $i > 10 ; $i++) {
-        echo $i;
+    <h1><?php echo("Exo1")?></h1>
+    <?php
+      for ($i = 0; $i <= 10; $i++) {
         echo(' ');
+        echo $i;
       }
     ?>
       <br/>

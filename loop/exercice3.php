@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1><?php echo("Exo 3")?></h1>
-    <? php
+    <?php
     $a = 100;
     $b = 20;
 
@@ -16,6 +16,7 @@
       echo(' ');
       --$a;
     }
+    ?>
 
     </br>
   <a href="exercice1.php">Exercice1</a>
@@ -26,6 +27,5 @@
   <a href="exercice6.php">Exercice6</a>
   <a href="exercice7.php">Exercice7</a>
   <a href="exercice8.php">Exercice8</a>
-    ?>
   </body>
 </html>

@@ -6,14 +6,15 @@
     <title></title>
   </head>
   <body>
-    <h1>Exo2</h1>
-      <? php
+    <h1>Exo5</h1>
+      <?php
         for ($i = 1 ; $i < 16 ; $i++){
           echo($i);
           echo(' ');
           echo('On y arrive presque');
           echo(' ');
         }
+        ?>
 
         </br>
       <a href="exercice1.php">Exercice1</a>
@@ -24,6 +25,5 @@
       <a href="exercice6.php">Exercice6</a>
       <a href="exercice7.php">Exercice7</a>
       <a href="exercice8.php">Exercice8</a>
-    ?>
   </body>
 </html>
