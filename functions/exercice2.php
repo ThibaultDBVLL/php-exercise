@@ -8,9 +8,10 @@
   <body>
     <h1>Exo2</h1>
       <?php
-        function(){
-          
+        function returnString($string){
+          return $string;
         }
+        echo returnString('coder cest cool');
 
       ?>
   </body>
