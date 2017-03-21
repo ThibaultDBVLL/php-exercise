@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-    <h1>Exo1</h1>
+    <h1>Exo8</h1>
       <?php
         $mois = ["janvier","fevrier","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","decembre"];
         foreach ($mois as $moi){

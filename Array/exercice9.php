@@ -5,11 +5,12 @@
     <title></title>
   </head>
   <body>
-    <h1>Exo5</h1>
+    <h1>Exo9</h1>
       <?php
       $HDF = array("02" =>"Aisne", "59" =>"Nord", "60" =>"Oise", "62" =>"Pas-de-Calais", "80" =>"Somme");
-      echo $HDF[59];
-      var_dump($HDF);
+      foreach ($HDF as $dep){
+        echo ($dep." ");
+      }
       ?>
 
       </br>
