@@ -6,12 +6,12 @@
     <title></title>
   </head>
   <body>
-    <h1>Exo1</h1>
+    <h1>Exo2</h1>
       <?php
-      function vraie(){
-        return true;
-      }
-      echo vraie ();
+        function(){
+          
+        }
+
       ?>
   </body>
 </html>
