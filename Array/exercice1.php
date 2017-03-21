@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,13 +7,8 @@
   <body>
     <h1>Exo6</h1>
       <?php
-      echo('hello');
-      for ($i = 20 ; $i > 0 ; $i--){
-        echo($i);
-        echo(' ');
-        echo("C'est presque bon");
-        echo(' ');
-      }
+        $mois = ["janvier","fevrier","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","decembre"];
+        echo $mois;
       ?>
 
       </br>
