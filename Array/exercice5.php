@@ -7,8 +7,7 @@
   <body>
     <h1>Exo2</h1>
       <?php
-      $mois = ["janvier","fevrier","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","decembre"];
-      echo $mois[2];
+    
       ?>
 
       </br>
