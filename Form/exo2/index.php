@@ -5,8 +5,8 @@
     <title></title>
   </head>
   <body>
-    <h1>Exo1</h1>
-      <form class="" action="user.php" method="get">
+    <h1>Exo2</h1>
+      <form class="" action="user.php" method="post">
         <label for="name">Nom :</label>
         <input type="text" name="name" value=""> </br>
         <label for="firstName">Prenom :</label>
