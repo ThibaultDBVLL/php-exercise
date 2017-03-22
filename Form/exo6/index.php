@@ -5,8 +5,10 @@
     <title></title>
   </head>
   <body>
-    <h1>Exo5</h1>
-      <form class="" action="index.php" method="post">
+    <h1>Exo6</h1>
+    <?php
+      if(!$_POST["civilit"]||!$_POST["name"]||!$_POST["firstName"]){
+      echo'<form class="" action="user.php" method="post">
         <select class="" name="civilit">
           <option value="Monsieur">Monsieur</option>
           <option value="Madame">Madame</option>
@@ -16,11 +18,12 @@
         <label for="firstName">Prenom :</label>
         <input type="text" name="firstName" value=""> </br>
         <input type="submit" name="" value="submit">
-      </form>
-      <?php
+      </form>';
+    }else{
         echo $_POST['civilit'];
         echo $_POST['name'];
         echo $_POST['firstName'];
+      }
       ?>
   </body>
 </html>
