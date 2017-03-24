@@ -1,6 +1,7 @@
 <?php
 session_start();
 setcookie('login');
+setcookie('password');
 ?>
 
 <!DOCTYPE html>
@@ -15,8 +16,8 @@ setcookie('login');
       <label for='login'>Login :</label>
       <input type='text'name='login' value=".$_COOKIE['login'].">
       <label for='password'>Password :</label>
-      <input type='text' name='password' value=".$_COOKIE['motdepasse'].">
-      <button type='submit value='Modifier'>
+      <input type='text' name='password' value=".$_COOKIE['password'].">
+      <button type='submit' value='Modifier'>
     </form>"
 
     ?>

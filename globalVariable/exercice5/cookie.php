@@ -1,6 +1,6 @@
 <?php
 setcookie('login', $_POST['login'], time()+360);
-setcookie('motdepasse', $_POST['login'], time()+360);
+setcookie('password', $_POST['password'], time()+360);
 ?>
 
 <!DOCTYPE html>
@@ -10,10 +10,10 @@ setcookie('motdepasse', $_POST['login'], time()+360);
     <title>Cookie</title>
   </head>
   <body>
-    <h1>Cookie!</h1>
 <?php
-echo($_COOKIE['login']);
-echo($_COOKIE['modepasse']);
+echo($_COOKIE['login']." ");
+echo($_COOKIE['password']);
 ?>
+<a href="modifcookie.php">Cliquez icfi pour modifier les infos</a>
 </body>
 </html>
