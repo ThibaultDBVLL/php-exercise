@@ -6,6 +6,7 @@
   </head>
   <body>
     <h1>Exo3</h1>
+    
       <form class="" action="user.php" method="get">
         <label for="name">Nom :</label>
         <input type="text" name="name" value=""> </br>
@@ -17,8 +18,6 @@
       <?php
         echo $_GET["name"];
         echo $_GET["firstName"];
-
-
       ?>
   </body>
 </html>
